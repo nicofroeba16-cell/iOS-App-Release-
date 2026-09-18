@@ -13,11 +13,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "buildVersion": "1",
-          "date": "2026-09-19",
+          "date": "2026-09-18",
           "localizedDescription": "Initial SideStore release",
           "downloadURL": "https://github.com/nicofroeba16-cell/iOS-App-Release-/releases/download/v1.0.0/IOSNext-Free-unsigned.ipa",
-          "size": 2577476
+          "size": 2577476,
+          "minOSVersion": "27.0"
         }
       ]
     }
