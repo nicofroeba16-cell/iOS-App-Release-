@@ -12,6 +12,14 @@
       "iconURL": "https://raw.githubusercontent.com/nicofroeba16-cell/iOS-App-Release-/main/assets/icon.jpg",
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-09-19",
+          "localizedDescription": "iOS Next 1.0.1 (Build 2)",
+          "downloadURL": "https://github.com/nicofroeba16-cell/iOS-App-Release-/releases/download/v1.0.1/IOSNext-Free-unsigned.ipa",
+          "size": 2578103,
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "1.0",
           "date": "2026-09-19",
           "localizedDescription": "Initial SideStore release — iOS Next 1.0 (Build 1)",
