@@ -31,8 +31,12 @@ Intended release flow:
 3. Create a GitHub Release in this repository.
 4. Upload the IPA as a GitHub Release asset — never store the IPA binary in Git history.
 5. Record the exact IPA byte size.
-6. Add the new version to the beginning of the app's `versions` array in `source.json`, preserving older versions.
-7. Commit the updated `source.json`.
-8. SideStore discovers the new release through the stable raw source URL.
+6. Read the GitHub Release `published_at` timestamp and write it to the new `source.json` version entry as `YYYY-MM-DDTHH:MM:SS` in UTC. Never publish a new version with a date-only `YYYY-MM-DD` value.
+7. Add the new version to the beginning of the app's `versions` array, preserving older versions.
+8. Validate that the newest version timestamp is not later than the GitHub Release `published_at` timestamp and is not in the future.
+9. Commit the updated `source.json`.
+10. SideStore discovers the new release through the stable raw source URL.
+
+SideStore treats timed release values as UTC. The feed must use the exact GitHub Release publication time rather than a calendar date; otherwise a date-only value can become an unintended midnight-UTC countdown.
 
 No IPA release is published until an approved artifact is available.
