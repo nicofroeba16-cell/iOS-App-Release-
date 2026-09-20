@@ -12,6 +12,14 @@
       "iconURL": "https://raw.githubusercontent.com/nicofroeba16-cell/iOS-App-Release-/main/assets/icon.jpg",
       "versions": [
         {
+          "version": "1.0.8",
+          "date": "2026-09-20T20:43:00Z",
+          "localizedDescription": "iOS Next 1.0.8 (Build 10) — Commander Live status integration",
+          "downloadURL": "https://github.com/nicofroeba16-cell/iOS-App-Release-/releases/download/v1.0.8/IOSNext.ipa",
+          "size": 5365283,
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "1.0.7",
           "date": "2026-09-20T19:48:28Z",
           "localizedDescription": "iOS Next 1.0.7 (Build 9)",
