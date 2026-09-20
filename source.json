@@ -12,6 +12,14 @@
       "iconURL": "https://raw.githubusercontent.com/nicofroeba16-cell/iOS-App-Release-/main/assets/icon.jpg",
       "versions": [
         {
+          "version": "1.0.7",
+          "date": "2026-09-20T19:48:28Z",
+          "localizedDescription": "iOS Next 1.0.7 (Build 9)",
+          "downloadURL": "https://github.com/nicofroeba16-cell/iOS-App-Release-/releases/download/v1.0.7/IOSNext.ipa",
+          "size": 5260148,
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "1.0.6",
           "date": "2026-09-20T10:00:23Z",
           "localizedDescription": "iOS Next 1.0.6 (Build 8)",
