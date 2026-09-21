@@ -1,0 +1,26 @@
+{
+  "name": "iOS Next Beta",
+  "identifier": "de.nicofroeba16.iosnext.beta.source",
+  "sourceURL": "https://raw.githubusercontent.com/nicofroeba16-cell/iOS-App-Release-/main/source-beta.json",
+  "apps": [
+    {
+      "name": "iOS Next Beta",
+      "bundleIdentifier": "de.nicofroeba16.iosnext",
+      "developerName": "nicofroeba16-cell",
+      "subtitle": "Beta channel for iOS Next",
+      "localizedDescription": "Private beta channel for iOS Next. Uses the same bundle identifier as Stable and replaces the installed Stable app when activated.",
+      "iconURL": "https://raw.githubusercontent.com/nicofroeba16-cell/iOS-App-Release-/main/assets/icon.jpg",
+      "versions": [
+        {
+          "version": "1.0.10",
+          "buildVersion": "13",
+          "date": "2026-09-21T11:07:00Z",
+          "localizedDescription": "iOS Next 1.0.10 Beta (Build 13) — Motion V2, Control Center V2, Jarvis wake-word foundation, global search, permissions center and reconnect improvements. Beta/testing channel.",
+          "downloadURL": "https://github.com/nicofroeba16-cell/iOS-App-Release-/releases/download/v1.0.10-beta.13/IOSNext-Beta.ipa",
+          "size": 5624141,
+          "minOSVersion": "27.0"
+        }
+      ]
+    }
+  ]
+}
