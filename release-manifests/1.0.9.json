@@ -19,10 +19,10 @@
   "release_asset_name": "IOSNext.ipa",
   "download_url": "https://github.com/nicofroeba16-cell/iOS-App-Release-/releases/download/v1.0.9/IOSNext.ipa",
   "release_notes": "release-notes/1.0.9.md",
-  "status": "artifact-verified",
+  "status": "published",
   "ipa_size_bytes": 5502597,
   "ipa_sha256": "d4a61dddc13e77a6b24c791688e969865dbf7a209dd2db70e887269bc6cefd82",
   "verified_build_commit": "f547dcf4b40d58332c340167736f04c566408225",
   "build_finished_at": "2026-09-21T04:09:42.865000+00:00",
-  "release_date": null
+  "release_date": "2026-09-21T04:20:42Z"
 }
